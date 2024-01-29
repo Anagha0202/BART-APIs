@@ -1,0 +1,82 @@
+header {
+  height: 65px;
+}
+
+.visits_counter {
+  text-align: right;
+  margin: 10px 30px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* margin-top: 110px; */
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.header {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35px; /* Set the fixed height of the footer here */
+}
+
+.nav_bar_style {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+}
+
+.subscript_text {
+  font-size: smaller;
+}
+
+.content {
+  position: absolute;
+  top: 150px;
+  height: 65vh;
+  overflow-y:scroll;
+  margin: 30px auto;
+  padding: 0 30px;
+  width: 90%;
+}
+
+.station_aside_contents {
+  position: absolute;
+  top: 108px;
+  height: 65vh;
+  margin: 30px auto;
+  padding: 30px 10px;
+  right: 5px;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  overflow-y: auto;
+}
+
+/* .table-responsive{
+  height:400px;  
+  overflow:scroll;
+}
+ 
+thead tr:nth-child(1) th{
+  background: white;
+  position: sticky;
+  top: 120px;
+  z-index: 999;
+} */
+
+/* #footer {
+  background-color: rgb(45, 44, 44);
+} */

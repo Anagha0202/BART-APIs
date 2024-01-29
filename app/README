@@ -1,0 +1,28 @@
+AWS Authentication
+username: anagha.viswanathkh@gmail.com
+password: Anagha@02021998
+
+MySql
+username: root
+password: Anagha@02021998
+
+Google Maps Javascript Api, Google Domains
+username: anagha.viswanathkh@gmail.com
+password: Nana@2602
+
+
+Webpage:
+https://bart.anaghascu.com/app/        Use nav-bar to navigate between 'Stations' and 'Trips'
+
+PHP Routes:
+GET requests handler                   -> /bartdir/app/index.php
+/stations                              -> /bartdir/app/stations.php
+/trips/source/STN_ABBR/dest/STN_ABBR   -> /bartdir/app/trips.php
+/station/source/STN_ABBR               -> /bartdir/app/station.php
+
+.htaccess                              -> /bartdir/.htaccess
+
+Answer to Part #5: BART APIs allow CORS (Cross-Origin Resource Sharing), so it is possible for my website to load and display data. 
+    In the response payload header we see the Access-Control-Allow-Origin:*, which permits access to the requests originating from my website 
+    (or any cross origin) to the BART API from my website
+
